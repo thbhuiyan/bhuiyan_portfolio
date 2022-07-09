@@ -12,3 +12,19 @@ h1{
 p{
     width: 50%;
 }
+
+a:visited{
+    color: paleturquoise;
+}
+a:hover{
+    color: rgb(14, 99, 36);
+}
+.starter{
+    font-weight: 800;
+    font-size: 22px;
+}
+.hireBtn{
+    padding: 10px;
+    border-radius: 12px;
+    background-image: linear-gradient(white, orange);
+}
