@@ -1,10 +1,17 @@
 body{
+    margin-left: 40px;
     font-family: poppins;
 }
 h1{
+    margin-left: 40px;
     font-size: 50px;
     
 }
-.name{
+.name{;
     color: orange;
+}
+p{
+    margin-left: 40px;
+    width: 50%;
+    text-align: left;
 }
