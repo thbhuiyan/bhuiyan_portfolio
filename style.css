@@ -1,3 +1,10 @@
+body{
+    font-family: poppins;
+}
 h1{
-    color: plum;
+    font-size: 50px;
+    
+}
+.name{
+    color: orange;
 }
