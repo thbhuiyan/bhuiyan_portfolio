@@ -59,3 +59,9 @@ section {
 .topRight img {
     width: 80%;
 }
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
