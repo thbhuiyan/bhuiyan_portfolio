@@ -1,37 +1,57 @@
-body{
-    margin-left: 40px;
+body {
     font-family: poppins;
 }
-h1{
+
+h1 {
     font-size: 50px;
-    
-}
-.name{
-    color: orange;
-}
-p{
-    width: 50%;
 }
 
-a:visited{
-    color: paleturquoise;
+.name {
+    color: orange;
 }
-a:hover{
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
     color: rgb(14, 99, 36);
 }
-.starter{
-    font-weight: 800;
+
+.linkR {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.starter {
+    font-weight: 700;
     font-size: 22px;
 }
-.hireBtn{
-    color:rgb(10, 9, 9) ;
+
+.hireBtn {
+    color: rgb(10, 9, 9);
     padding: 6px 40px;
     border-radius: 4px;
     background-image: linear-gradient(white, orange);
 }
-.hireBtn:hover{
+
+.hireBtn:hover {
     font-size: 16px;
-    transition: all .2s ease;
-    color:rgb(255, 253, 253) ;
-    background-image: linear-gradient(orange, rgb(95, 133, 133));
+    transition: all 1s ease;
+    color: rgb(255, 253, 253);
+    background-image: linear-gradient(rgb(216, 70, 17), rgb(79, 131, 203));
+
+}
+
+section {
+    display: flex;
+}
+
+.hw {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.topRight img {
+    width: 80%;
 }
