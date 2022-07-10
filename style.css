@@ -27,6 +27,7 @@ a:hover {
 
 .stories {
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .starter {
@@ -35,7 +36,10 @@ a:hover {
 }
 
 .hireBtn {
-    padding: 6px 40px;
+    display: inline-block;
+    font-size: larger;
+    padding: 10px 60px;
+    margin-top: 20px;
     border-radius: 6px;
     background-image: linear-gradient(to right, rgb(253, 239, 218), orange);
     text-decoration: none;
@@ -52,20 +56,34 @@ a:hover {
     background-image: linear-gradient(to right, orange, rgb(191, 231, 248));
 }
 
-section {
+.flexible_container {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .hw {
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 .topRight img {
-    width: 80%;
+    width: 90%;
+    margin-top: 30px;
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience {
+    padding-left: 5%;
+    ;
 }
