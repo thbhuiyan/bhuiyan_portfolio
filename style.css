@@ -29,18 +29,26 @@ a:hover {
 }
 
 .hireBtn {
-    color: rgb(10, 9, 9);
     padding: 6px 40px;
     border-radius: 4px;
     background-image: linear-gradient(white, orange);
+    text-decoration: none;
+}
+
+.hireBtn:visited {
+    color: black;
+    padding: 6px 40px;
+    border-radius: 4px;
+    background-image: linear-gradient(white, orange);
+    text-decoration: none;
 }
 
 .hireBtn:hover {
     font-size: 16px;
     transition: all 1s ease;
     color: rgb(255, 253, 253);
-    background-image: linear-gradient(rgb(216, 70, 17), rgb(79, 131, 203));
-
+    background-image: linear-gradient(orange, rgb(199, 219, 247));
+    text-transform: uppercase;
 }
 
 section {
