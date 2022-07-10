@@ -1,5 +1,6 @@
 body {
     font-family: poppins;
+    margin: 0px;
 }
 
 h1 {
@@ -22,6 +23,10 @@ a:hover {
 .linkR {
     text-decoration: none;
     font-weight: 400;
+}
+
+.stories {
+    text-align: justify;
 }
 
 .starter {
@@ -63,5 +68,4 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
 }
