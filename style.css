@@ -24,7 +24,14 @@ a:hover{
     font-size: 22px;
 }
 .hireBtn{
-    padding: 10px;
-    border-radius: 12px;
+    color:rgb(10, 9, 9) ;
+    padding: 6px 40px;
+    border-radius: 4px;
     background-image: linear-gradient(white, orange);
+}
+.hireBtn:hover{
+    font-size: 16px;
+    transition: all .2s ease;
+    color:rgb(255, 253, 253) ;
+    background-image: linear-gradient(orange, rgb(95, 133, 133));
 }
