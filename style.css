@@ -15,7 +15,8 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(14, 99, 36);
+    color: rgb(32, 159, 213);
+    transition: all 1s ease;
 }
 
 .linkR {
@@ -38,7 +39,7 @@ a:hover {
 .hireBtn:visited {
     color: black;
     padding: 6px 40px;
-    border-radius: 4px;
+    border-radius: 46px;
     background-image: linear-gradient(white, orange);
     text-decoration: none;
 }
@@ -47,7 +48,7 @@ a:hover {
     font-size: 16px;
     transition: all 1s ease;
     color: rgb(255, 253, 253);
-    background-image: linear-gradient(orange, rgb(199, 219, 247));
+    background-image: linear-gradient(to right, orange, rgb(32, 159, 213));
     text-transform: uppercase;
 }
 
