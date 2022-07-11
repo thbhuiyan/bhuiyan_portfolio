@@ -86,3 +86,8 @@ a:hover {
 .experience {
     padding-left: 5%;
 }
+
+.exp_bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
