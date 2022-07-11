@@ -63,8 +63,11 @@ a:hover {
 
 .hw {
     width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0% 5%;
+}
+
+.exp_item {
+    box-shadow: 10px 10px rgb(118, 116, 116);
 }
 
 .topRight img {
