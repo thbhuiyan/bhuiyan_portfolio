@@ -62,12 +62,15 @@ a:hover {
 }
 
 .hw {
-    width: 50%;
-    padding: 0% 5%;
+    width: 40%;
+    padding: 0% 4%;
 }
 
 .exp_item {
-    box-shadow: 10px 10px rgb(118, 116, 116);
+    width: 40%;
+    margin: 0% 6%;
+    box-shadow: 10px 10px 20px rgb(118, 116, 116);
+    border-radius: 12px;
 }
 
 .topRight img {
@@ -87,10 +90,16 @@ a:hover {
 }
 
 .experience {
-    padding-left: 5%;
-}
-
-.exp_bg {
+    padding-left: 6%;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    position: left;
+}
+
+.border1 {
+    border-left: 10px solid orange;
+}
+
+.border2 {
+    border-left: 10px solid blue;
 }
