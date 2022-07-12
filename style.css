@@ -62,7 +62,6 @@ a:hover {
 }
 
 .hw {
-    width: 40%;
     padding: 0% 4%;
 }
 
@@ -96,10 +95,10 @@ a:hover {
     position: left;
 }
 
-.border1 {
-    border-left: 10px solid orange;
+#full-stack-developer {
+    border-left: 10px solid tomato;
 }
 
-.border2 {
+#learner_developer {
     border-left: 10px solid blue;
 }
