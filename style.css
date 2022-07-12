@@ -102,3 +102,10 @@ a:hover {
 #learner_developer {
     border-left: 10px solid blue;
 }
+
+footer p {
+    text-align: center;
+    background-color: rgb(245, 225, 199);
+    margin-bottom: 0;
+    padding: 20px 0px;
+}
